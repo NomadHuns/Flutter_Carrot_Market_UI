@@ -12,11 +12,18 @@ TextTheme textTheme() {
   );
 }
 
+IconThemeData iconTheme() {
+  return const IconThemeData(
+    color: Colors.black,
+  );
+}
+
 AppBarTheme appBarTheme() {
   return AppBarTheme(
     centerTitle: false,
     color: Colors.white,
     elevation: 0.0,
+    iconTheme: iconTheme(),
     titleTextStyle: GoogleFonts.nanumGothic(
       fontSize: 16,
       fontWeight: FontWeight.bold,
