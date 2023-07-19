@@ -25,10 +25,17 @@ AppBarTheme appBarTheme() {
   );
 }
 
+BottomNavigationBarThemeData bottomNavigatorTheme() {
+  return const BottomNavigationBarThemeData(
+    selectedItemColor: Colors.orange,
+  );
+}
+
 ThemeData theme() {
   return ThemeData(
     scaffoldBackgroundColor: Colors.white,
     textTheme: textTheme(),
     appBarTheme: appBarTheme(),
+    bottomNavigationBarTheme: bottomNavigatorTheme(),
   );
 }
