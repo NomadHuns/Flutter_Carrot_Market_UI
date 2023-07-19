@@ -28,6 +28,8 @@ AppBarTheme appBarTheme() {
 BottomNavigationBarThemeData bottomNavigatorTheme() {
   return const BottomNavigationBarThemeData(
     selectedItemColor: Colors.orange,
+    unselectedItemColor: Colors.black26,
+    showUnselectedLabels: true,
   );
 }
 
