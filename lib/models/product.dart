@@ -26,7 +26,6 @@ List<Product> productList = [
       title: '니트 조끼',
       author: 'author_1',
       urlToImage:
-
       'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_7.jpg',
       publishedAt: '2시간 전',
       heartCount: 8,
@@ -37,7 +36,7 @@ List<Product> productList = [
       title: '먼나라 이웃나라 12',
       author: 'author_2',
       urlToImage:
-      'https://github.com/flutter-coder/ui_images/blob/master/carrot_product_6.jpg?raw=true',
+      'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_6.jpg',
       publishedAt: '3시간 전',
       heartCount: 3,
       address: '중동',
@@ -48,7 +47,7 @@ List<Product> productList = [
     author: 'author_3',
     address: '우동',
     urlToImage:
-    'https://github.com/flutter-coder/ui_images/blob/master/carrot_product_5.jpg?raw=true',
+    'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_5.jpg',
     publishedAt: '1일 전',
     heartCount: 0,
     price: '15000',
@@ -59,7 +58,7 @@ List<Product> productList = [
     author: 'author_4',
     address: '우동',
     urlToImage:
-    'https://github.com/flutter-coder/ui_images/blob/master/carrot_product_4.jpg?raw=true',
+    'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_4.jpg',
     publishedAt: '3일 전',
     heartCount: 4,
     price: '15000',
@@ -70,7 +69,7 @@ List<Product> productList = [
     author: 'author_5',
     address: '우동',
     urlToImage:
-    'https://github.com/flutter-coder/ui_images/blob/master/carrot_product_3.jpg?raw=true',
+    'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_3.jpg',
     publishedAt: '1주일 전',
     heartCount: 7,
     price: '95000',
@@ -81,7 +80,7 @@ List<Product> productList = [
     author: 'author_6',
     address: '좌동',
     urlToImage:
-    'https://github.com/flutter-coder/ui_images/blob/master/carrot_product_2.jpg?raw=true',
+    'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_2.jpg',
     publishedAt: '5일 전',
     heartCount: 4,
     price: '115000',
@@ -92,7 +91,7 @@ List<Product> productList = [
     author: 'author_7',
     address: '좌동',
     urlToImage:
-    'https://github.com/flutter-coder/ui_images/blob/master/carrot_product_1.jpg?raw=true',
+    'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_1.jpg',
     publishedAt: '5일 전',
     heartCount: 8,
     price: '85000',
