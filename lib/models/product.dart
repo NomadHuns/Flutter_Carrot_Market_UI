@@ -26,7 +26,8 @@ List<Product> productList = [
       title: '니트 조끼',
       author: 'author_1',
       urlToImage:
-      'https://github.com/flutter-coder/ui_images/blob/master/carrot_product_7.jpg?raw=true',
+
+      'https://raw.githubusercontent.com/flutter-coder/ui_images/master/carrot_product_7.jpg',
       publishedAt: '2시간 전',
       heartCount: 8,
       price: '35000',

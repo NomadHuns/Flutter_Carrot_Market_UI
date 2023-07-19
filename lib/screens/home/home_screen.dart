@@ -1,4 +1,5 @@
-import 'package:carrot_market_ui/theme.dart';
+import 'package:carrot_market_ui/models/product.dart';
+import 'package:carrot_market_ui/screens/home/components/product_item.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -42,15 +43,17 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Container(
-        color: Colors.orange[100],
-        child: Center(
-          child: Text(
-            'HomeScreen body 영역(index:0)',
-            style: textTheme().displayMedium,
-          ),
-        ),
-      ),
+      body: ListView.separated(
+          itemBuilder: (context, index) {
+            return ProductItem(product: productList[index]);
+          },
+          separatorBuilder: (context, index) => const Divider(
+                height: 0,
+                indent: 16,
+                endIndent: 16,
+                color: Colors.grey,
+              ),
+          itemCount: productList.length),
     );
   }
 }
